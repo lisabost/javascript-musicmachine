@@ -60,8 +60,8 @@ $(document).ready(function () {
 
     // Array for song two - Mary Had a Little Lamb
     var songTwo = ["B,4", "A,4", "G,4", "A,4", "B,4", "B,4",
-        "B,4", "A,4", "A,4", "A,4", "B,4", "D,4",
-        "D,4", "B,4", "A,4", "G,4", "A,4", "B,4",
+        "B,4", "A,4", "A,4", "A,4", "B,4", "D,5",
+        "D,5", "B,4", "A,4", "G,4", "A,4", "B,4",
         "B,4", "B,4", "B,4", "A,4", "A,4","B,4",
         "A,4", "G,4"];
 
