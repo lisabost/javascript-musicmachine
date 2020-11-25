@@ -53,11 +53,33 @@ $(document).ready(function () {
     // Empty array to record a song as the user clicks notes
     var recordedNotes = [];
 
+    // Array for song one - Hot Cross Buns
+    var songOne = ["B,4", "A,4", "G,4","B,4", "A,4", "G,4",
+        "G,4", "G,4", "G,4", "G,4", "A,4", "A,4",
+        "A,4", "A,4", "B,4", "A,4", "G,4"];
+
+    // Array for song two - Mary Had a Little Lamb
+    var songTwo = ["B,4", "A,4", "G,4", "A,4", "B,4", "B,4",
+        "B,4", "A,4", "A,4", "A,4", "B,4", "D,4",
+        "D,4", "B,4", "A,4", "G,4", "A,4", "B,4",
+        "B,4", "B,4", "B,4", "A,4", "A,4","B,4",
+        "A,4", "G,4"];
+
     // This anonymous function makes the Play Recording
     // button play the array of recorded notes
     $("#playButton").click(function () {
         playRecording(recordedNotes);
     });
+
+    // makes the song one button work
+    $("#songOneButton").click(function() {
+        playRecording(songOne);
+    });
+
+    //makes the song two button work
+    $("#songTwoButton").click(function() {
+        playRecording(songTwo);
+    })
 
     // Assign functions to the other buttons
     $("#recordButton").click(toggleRecording);
